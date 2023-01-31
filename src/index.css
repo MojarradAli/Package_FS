@@ -102,6 +102,7 @@ section {
 }
 body {
   line-height: 1;
+  padding: 8px;
 }
 ol,
 ul {
@@ -124,6 +125,11 @@ table {
 }
 
 .App {
-  height: 500px;
-  width: 100vw;
+  height: 600px;
+  /* width: 100vw; */
+}
+
+select {
+  margin-top: 36px !important;
+  border-radius: 15px;
 }
